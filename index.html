@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capisci</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/93/93192.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Amatic+SC&family=Bungee&family=Cinzel&family=PT+Serif:ital@1&family=Pacifico&family=Poppins:ital@1&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fs-1 fw-2">Capisci</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#sobre-o-restaurante">
+                            <i class="bi bi-house-door me-1"></i>    
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#eventos">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#cardapio">
+                            <i class="bi bi-card-text me-1"></i>
+                            Cardapio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#fale-conosco">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section>
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./assets/img/slides/slide1.png" alt="espaço interno do restaurante">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./assets/img/slides/slide2.png" alt="duas taças de vinho">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./assets/img/slides/slide3.png" alt="mesa com comida">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5" id="sobre-o-restaurante">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./assets/img/restaurante.jpg" class="d-block w-100 rounded" alt="espaço interno do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a Capisci</span></h2>
+                            <p>
+                                Bem-vindo(a) à Capisci Pizzaria Italiana, onde a tradição se funde com o sabor em uma jornada gastronômica única. Em cada pizza que criamos, você encontrará a essência das autênticas receitas italianas, passadas de geração em geração, combinando paixão pela culinária com ingredientes frescos e de alta qualidade.
+                            </p>
+                            <h3 class="section-title">Nosso <span class="text-colored"> espaço</span></h3>
+                            <p>
+                                Nosso espaço na pizzaria é mais do que um simples local para degustar pizzas excepcionais; é um refúgio aconchegante onde a paixão pela boa comida se encontra com uma atmosfera acolhedora. Com uma decoração que combina o rústico e o moderno, nosso ambiente convida você a se perder nos aromas irresistíveis que pairam no ar e a desfrutar de momentos inesquecíveis entre amigos e familiares.
+                            </p>
+                            <ul>
+                                <li>Música</li>
+                                <li>Eventos de degustação</li>
+                                <li>Reservas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todos <span class="text-colored">as ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2" src="./assets/img/eventos/aniversario.jpg" alt="bolo de aniversario">
+                        <h3 class="section-title text-colored fs-4 text-center">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Aniversarios</h3>
+                        <p>
+                            Aniversários ganham um toque especial em nossa pizzaria. Desfrute de uma pizza festiva única, preparada com ingredientes frescos, em um ambiente acolhedor. Faça do seu próximo aniversário uma experiência memorável conosco! 🎉🍕
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2" src="./assets/img/eventos/casamento.jpg" alt="mesa para casamento">
+                        <h3 class="section-title text-colored fs-4 text-center">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Encontros</h3>
+                        <p>
+                            Desfrute de encontros especiais na Pizzaria Capisci, acompanhados por uma seleção refinada de vinhos. Nossa atmosfera acolhedora e pizzas artesanais proporcionam uma experiência única de degustação. Celebre momentos especiais com boa companhia, sabores irresistíveis e vinhos excepcionais. 🍷🍕
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2" src="./assets/img/eventos/confraternizacoes.jpg" alt="tacas de uma confraternização">
+                        <h3 class="section-title text-colored fs-4 text-center">
+                            <i class="bi bi-people-fill"></i>
+                            Confraternizações</h3>
+                        <p>
+                            Torne suas confraternizações memoráveis com um cardápio diversificado de pizzas gourmet e um ambiente acolhedor, oferecemos o cenário perfeito para celebrar conquistas e fortalecer laços. Proporcione aos seus eventos um toque único de sabor e alegria. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nosso <span class="text-colored">cardápio</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="fw-bold text-start nav-link text-colored active">Bebidas não alcoolicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="fw-bold text-start nav-link text-colored">Bebidas alcoolicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-start nav-link text-colored">Entradas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class="fw-bold text-start nav-link text-colored">Pratos principais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-start nav-link text-colored">Sobremesas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bebidas-sem-alcool">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./assets/img/cardapio/bebidas/coca-cola.jpg" alt="coca-cola">
+                                        <h5 class="text-colored fw-bold mt-2 text-center">Coca-cola</h5>
+                                        <p class="text-center">
+                                            Refrigerante refrescante e delicioso com gelo e limão.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./assets/img/cardapio/bebidas/suco.jpg" alt="suco de laranja">
+                                        <h5 class="text-colored fw-bold mt-2 text-center">Suco de laranja</h5>
+                                        <p class="text-center">
+                                            Suco natural cheio de vitaminas.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./assets/img/cardapio/bebidas/coca-cola.jpg" alt="coca-cola">
+                                        <h5 class="text-colored fw-bold mt-2 text-center">Coca-cola</h5>
+                                        <p class="text-center">
+                                            Refrigerante refrescante e delicioso com gelo e limão.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./assets/img/cardapio/bebidas/suco.jpg" alt="suco de laranja">
+                                        <h5 class="text-colored fw-bold mt-2 text-center">Suco de laranja</h5>
+                                        <p class="text-center">
+                                            Suco natural cheio de vitaminas.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./assets/img/cardapio/bebidas/coca-cola.jpg" alt="coca-cola">
+                                        <h5 class="text-colored fw-bold mt-2 text-center">Coca-cola</h5>
+                                        <p class="text-center">
+                                            Refrigerante refrescante e delicioso com gelo e limão.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bebidas-alcoolicas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./assets/img/cardapio/bebidas/cerveja.jpg" alt="cerveja">
+                                        <h5 class="text-colored fw-bold mt-2 text-center">Cerveja artesanal</h5>
+                                        <p class="text-center">
+                                            Explore o mundo da cerveja artesanal, onde cada gole é uma obra-prima de sabores distintos e qualidade incomparável. Entregue-se a uma experiência sensorial única. 🍺✨
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./assets/img/cardapio/bebidas/vinho.jpg" alt="vinho">
+                                        <h5 class="text-colored fw-bold mt-2 text-center">Vinho especiais</h5>
+                                        <p class="text-center">
+                                            Elevando o Prazer de Cada Momento Desfrute de momentos especiais com nosso vinho premium, uma escolha refinada para elevar o sabor e tornar cada ocasião memorável. 🍷✨
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="entradas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./assets/img/cardapio/entradas/entrada.jpg" alt="nome da entrada">
+                                        <h5 class="text-colored fw-bold mt-2 text-center">Entrada misteriosa Nº1</h5>
+                                        <p class="text-center">
+                                            Explore nossa variedade de entradas irresistíveis antes da experiência principal. De deliciosos aperitivos a opções gourmet, cada mordida é uma promessa de antecipação para a refeição que está por vir. 🍽️✨
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./assets/img/cardapio/entradas/entrada.jpg" alt="nome da entrada">
+                                        <h5 class="text-colored fw-bold mt-2 text-center">Entrada misteriosa Nº2</h5>
+                                        <p class="text-center">
+                                            Nossas entradas são uma celebração de sabores, preparando seu paladar para a sinfonia gastronômica que está prestes a começar. Delicie-se com cada pedaço de nossas opções cuidadosamente elaboradas, criadas para despertar sua paixão pela boa comida. 🎶🍷
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pratos-principais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./assets/img/cardapio/pratos/pizza.jpg" alt="pizza">
+                                        <h5 class="text-colored fw-bold mt-2 text-center">Margherita</h5>
+                                        <p class="text-center">
+                                            Uma clássica explosão de simplicidade italiana, combinando molho de tomate fresco, mussarela de búfala e manjericão para uma autêntica experiência napolitana.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./assets/img/cardapio/pratos/pizza.jpg" alt="pizza">
+                                        <h5 class="text-colored fw-bold mt-2 text-center">Pepperoni</h5>
+                                        <p class="text-center">
+                                            O clássico americano com toque italiano, apresentando generosas camadas de pepperoni defumado e queijo derretido, uma fusão deliciosa de sabores.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./assets/img/cardapio/pratos/pizza.jpg" alt="pizza">
+                                        <h5 class="text-colored fw-bold mt-2 text-center">Frutos do mar</h5>
+                                        <p class="text-center">
+                                            Uma experiência única que traz o oceano para sua mesa, com camarões suculentos, moluscos e lulas frescas sobre uma base de molho de tomate especial, transportando você para o litoral italiano.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./assets/img/cardapio/sobremesas/bolo.jpg" alt="bolo">
+                                        <h5 class="text-colored fw-bold mt-2 text-center">Bolo</h5>
+                                        <p class="text-center">
+                                            Nossos bolos especiais são obras de arte culinárias, feitos com amor e ingredientes selecionados. Cada fatia é uma experiência única, um deleite irresistível para adoçar seus momentos especiais. ✨🍰
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./assets/img/cardapio/sobremesas/cupcake.jpg" alt="cupcake">
+                                        <h5 class="text-colored fw-bold mt-2 text-center">Caupcake</h5>
+                                        <p class="text-center">
+                                            Nossos cupcakes são pequenos tesouros de sabor, cuidadosamente preparados para alegrar seu paladar. Com uma variedade de coberturas e recheios, cada mordida é uma explosão de doçura que faz qualquer momento especial. 🧁✨
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome:</label>
+                                <input name="nome" type="text" id="nome" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail:</label>
+                                <input name="email" type="email" id="email" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone(opcional):</label>
+                                <input name="telefone" type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem:</label>
+                                <textarea name="mensagem" class="form-control" id="mensagem" cols="30"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="text-colored bi bi-facebook"></i>
+                                    </a>
+                                </li>   
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="text-colored bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="text-colored bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Dracula da silva, 999, Transilvania - Romenia - RR
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+<!-- **JS Imports** -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./assets/js/plugins/jquery.mask.min.js"></script>
+    <script src="./assets/js/plugins/jquery.validate.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
