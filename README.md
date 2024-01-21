@@ -1,64 +1,61 @@
 <div align="center">
-  <img src="https://i.postimg.cc/3xbR5F7H/rounded-in-photoretrica.png" width="150">
-
-  # EBAC Desenvolvedor FullStack Java - Front-End  
-
-  ## Projeto: Capisci Pizzaria  <a href="https://capisci-pizzaria.vercel.app/">Visite o site</a>
+  
+  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+  ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+  
+  <h1> Project: Capisci Pizzaria <a href="https://capisci-pizzaria.vercel.app/">Deploy</a></h1>
   <img src="https://i.postimg.cc/mDjDT1Qm/screencapture-127-0-0-1-5500-index-html-2023-11-27-15-30-07.png">
 </div>
 
-## Descrição do Projeto
+## Description
 
-Bem-vindo à Capisci Pizzaria, um projeto desenvolvido com Bootstrap como parte do curso Desenvolvedor FullStack Java da EBAC. Explore os recursos a seguir e aproveite a experiência deliciosa!
+The "Capisci Pizzaria Italiana" project is a website developed in HTML, CSS and JavaScript, using the Bootstrap framework for responsive design and a modern appearance. The main objective is to present information about the restaurant, its atmosphere, events, menu and contact details.
 
-### Recursos Destacados
+### Highlighted Features
 
-- **Menu Responsivo:**
-  - Navegação adaptável para proporcionar uma experiência consistente em diferentes dispositivos.
+- **Responsive Menu:**
+  - Adaptive navigation to provide a consistent experience across different devices.
 
 - **Carousel:**
-  - Apresentação visual atraente dos destaques e promoções da pizzaria.
+  - Attractive visual presentation of the pizzeria's highlights and promotions.
 
-- **Seção de Eventos:**
-  - Fique por dentro das últimas novidades e eventos especiais da Capisci.
+- **Events Section:**
+  - Stay up to date with the latest news and special events from Capisci.
 
-- **Cardápio com Tabs:**
-  - Organização eficiente do cardápio, permitindo explorar pizzas, massas e acompanhamentos por categoria.
+- **Menu with Tabs:**
+  - Efficient organization of the menu, allowing you to explore pizzas, pastas and side dishes by category.
 
-- **Contato:**
-  - Seção dedicada para entrar em contato com a pizzaria, facilitando feedbacks e pedidos.
+- **Contact:**
+  - Dedicated section to contact the pizzeria, facilitating feedback and orders.
 
 ### Plugins
 
-- **Mask e Validations:**
-  - Utilização de plugins para máscaras e validações na seção de contatos, tornando a interação mais amigável e segura.
+- **Mask and Validations:**
+  - Use of plugins for masks and validations in the contact section, making interaction more friendly and secure.
 
-### Responsividade em Geral
+### General Responsiveness
 
-- **Design Adaptável:**
-  - Layout responsivo para garantir uma experiência agradável em telas de diferentes tamanhos.
+- **Adaptive Design:**
+  - Responsive layout to ensure a pleasant experience on screens of different sizes.
 
-- **Performance Otimizada:**
-  - Carregamento rápido e eficiente para uma navegação suave.
+- **Optimized Performance:**
+  - Fast and efficient loading for smooth browsing.
 
-## Como Utilizar
+## How to use
 
-1. **Acesse o site:**
-   - Visite [Capisci Pizzaria](https://capisci-pizzaria.vercel.app/)
+1. **Access the website:**
+   - Visit [Capisci Pizzeria](https://capisci-pizzaria.vercel.app/)
 
-2. **Explore os Recursos:**
-   - Navegue pelo menu responsivo, confira os destaques no carousel e descubra os eventos especiais.
+2. **Explore Resources:**
+   - Browse the responsive menu, check out highlights in the carousel and discover special events.
 
-3. **Faça Seu Pedido:**
-   - Utilize a seção de cardápio com tabs para personalizar seu pedido e aproveitar as promoções.
+3. **Place Your Order:**
+   - Use the tabbed menu section to customize your order and take advantage of promotions.
 
-4. **Entre em Contato:**
-   - Utilize os campos de contato com máscaras e validações para uma interação suave e segura.
+4. **Get in touch:**
+   - Use contact fields with masks and validations for a smooth and safe interaction.
 
-## Feedback e Contribuições
+## Feedback and Contributions
 
-Se tiver algum feedback, sugestão ou identificar oportunidades de melhoria, ficarei agradecido por sua contribuição. Sinta-se à vontade para abrir uma issue ou entrar em contato.
-
-<h3 align="center">
-  <i>Agradeço por explorar a Capisci Pizzaria e espero que sua experiência seja incrível!</i>
-</h3>
+If you have any feedback, suggestions or identify opportunities for improvement, I would be grateful for your contribution. Feel free to open an issue or get in touch.
